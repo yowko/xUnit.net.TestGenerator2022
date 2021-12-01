@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="xUnit.net.TestGenerator2022.Yowko Tsai.8cdf9689-b6ff-4847-9baa-850482a5fee7" Version="0.1" Language="en-US" Publisher="Yowko Tsai" />
+        <Identity Id="xUnit.net.TestGenerator2022.Yowko Tsai.8cdf9689-b6ff-4847-9baa-850482a5fee7" Version="1.0" Language="en-US" Publisher="Yowko Tsai" />
         <DisplayName>xUnit.net.TestGenerator2022</DisplayName>
         <Description xml:space="preserve">xUnit.net Test Generator extensions for Visual Studio 2022.
 Creates Unit tests with xUnit.net 2.0 framework.
@@ -11,7 +11,6 @@ Works on Visual Studio 2022 </Description>
         <Icon>xUnit.png</Icon>
         <PreviewImage>preview.png</PreviewImage>
         <Tags>unit testing, xUnit,xUnit.net,xunit,2022</Tags>
-        <Preview>true</Preview>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
