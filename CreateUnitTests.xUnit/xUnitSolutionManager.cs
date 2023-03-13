@@ -42,7 +42,7 @@ namespace xUnit.net.TestGenerator
 
             base.OnUnitTestProjectCreated(unitTestProject, sourceMethod);
 
-            this.EnsureNuGetReference(unitTestProject, "xunit", "2.4.1");
+            this.EnsureNuGetReference(unitTestProject, "xunit", "2.4.2");
             this.EnsureNuGetReference(unitTestProject, "xunit.runner.visualstudio", "2.4.3");
 
 
