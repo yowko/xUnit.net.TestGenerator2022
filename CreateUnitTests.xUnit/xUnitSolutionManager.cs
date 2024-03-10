@@ -42,8 +42,8 @@ namespace xUnit.net.TestGenerator
 
             base.OnUnitTestProjectCreated(unitTestProject, sourceMethod);
 
-            this.EnsureNuGetReference(unitTestProject, "xunit", "2.4.2");
-            this.EnsureNuGetReference(unitTestProject, "xunit.runner.visualstudio", "2.4.5");
+            this.EnsureNuGetReference(unitTestProject, "xunit", "2.6.6");
+            this.EnsureNuGetReference(unitTestProject, "xunit.runner.visualstudio", "2.5.7");
 
 
             var vsp = unitTestProject.Object as VSProject2;
